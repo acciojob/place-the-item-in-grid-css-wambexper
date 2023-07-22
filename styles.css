@@ -1,19 +1,18 @@
 
 /* Your CSS Code here. */
-.holder {
-  display: grid;
-  grid-template-rows: repeat(2, 100px); /* Two rows, each with 100px height */
-  grid-template-columns: repeat(2, 100px); /* Two columns, each with 100px width */
-  gap: 0; /* Optional, to remove the gap between grid items */
-  width: 200px; /* Set the width of the grid container to 200px */
-  height: 200px; /* Set the height of the grid container to 200px */
+.holder{
+	display:grid;
+	width:100%;
+	grid-template-columns:100px 100px;
+	grid-template-rows:100px 100px;
+	justify-content: center;
+    align-content: center;
+	align-items: center;
+    gap: 10px;
 }
-
-/* Grid item styles (optional, just for demonstration) */
-.item {
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
+.holder .item{
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding:10px;
 }
